@@ -1,0 +1,39 @@
+// Format details:
+// - https://containers.dev/implementors/json_reference/
+// Template Repository:
+// - https://github.com/devcontainers/templates/tree/main/src/jekyll
+// - https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/jekyll
+//   - This repository has been archived.
+//   - Most of the contents of this repository have been migrated to the above organization (devcontainers).
+{
+    // # General devcontainer.json properties
+    "name": "Jekyll",
+    "remoteUser": "vscode",
+
+    // # Scenario specific properties
+    // ## Image or Dockerfile specific properties
+
+    // ## Docker Compose specific properties
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "dev-container",
+    "workspaceFolder": "/home/vscode/workspace",
+
+    // ## Tool-specific properties
+    "customizations": {
+        "vscode": {
+            "settings": {
+            },
+            "extensions": [
+                "ginfuru.vscode-jekyll-snippets",
+                "eliostruyf.vscode-front-matter"
+            ]
+        }
+    }
+
+    // # Lifecycle scripts
+
+    // # Minimum host requirements
+
+    // # Port attributes
+
+}
