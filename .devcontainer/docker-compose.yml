@@ -6,7 +6,7 @@ services:
       context: ..
       dockerfile: .devcontainer/Dockerfile
       args:
-        IMAGE_VERSION: ${IMAGE_VERSION:-2.1.4}      # x, x.x, x.x.x
+        IMAGE_VERSION: ${IMAGE_VERSION:-2.2.8}      # x, x.x, x.x.x
         RUBY_VERSION: ${RUBY_VERSION:-3.3}          # x.x
         DEBIAN_VERSION: ${DEBIAN_VERSION:-bullseye} # bullseye: Debian 11, buster: Debian 10
         HOST_DOCKER_GID: ${HOST_DOCKER_GID:-1001}   # 1001
