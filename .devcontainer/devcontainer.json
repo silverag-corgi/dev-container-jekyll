@@ -16,7 +16,7 @@
     // ## Docker Compose specific properties
     "dockerComposeFile": "docker-compose.yml",
     "service": "dev-container",
-    "workspaceFolder": "/home/vscode/workspace",
+    "workspaceFolder": "/home/vscode/workspace/Git/private/jekyll/blog",
 
     // ## Tool-specific properties
     "customizations": {
